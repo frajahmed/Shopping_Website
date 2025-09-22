@@ -6,6 +6,8 @@
     <title>IQUP Shopping</title>
     <!-- Linking Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Linking Swipper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" class="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -130,35 +132,39 @@
          <section class="testimonials-section">
             <h2 class="section-title">Testimonials</h2>
             <div class="section-content">
-                <div class="slider-container">
+                <div class="slider-container swiper">
                     <div class="slider-wrapper">
-                        <ul class="testimonials-list">
-                            <li class="testimonial">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
                                 <img src="imgs/user-1.jpg" alt="User" class="user-image">
                                 <h3 class="name">Ahmed Fraj</h3>
                                 <i class="feedback">Loved th Good Product. Perfectly balanced and Qualitet. Will order again</i>
                             </li>
-                            <li class="testimonial">
+                            <li class="testimonial swiper-slide">
                                 <img src="imgs/user-2.jpg" alt="User" class="user-image">
                                 <h3 class="name">Lorenzo Scaglia</h3>
                                 <i class="feedback">Loved th Good Product. Perfectly balanced and Qualitet. Will order again</i>
                             </li>
-                            <li class="testimonial">
+                            <li class="testimonial swiper-slide">
                                 <img src="imgs/user-3.jpg" alt="User" class="user-image">
                                 <h3 class="name">Fraj Ahmed</h3>
                                 <i class="feedback">Loved th Good Product. Perfectly balanced and Qualitet. Will order again</i>
                             </li>
-                            <li class="testimonial">
+                            <li class="testimonial swiper-slide">
                                 <img src="imgs/user-4.jpg" alt="User" class="user-image">
                                 <h3 class="name">Scaglia Lorenzo</h3>
                                 <i class="feedback">Loved th Good Product. Perfectly balanced and Qualitet. Will order again</i>
                             </li>
-                            <li class="testimonial">
+                            <li class="testimonial swiper-slide">
                                 <img src="imgs/user-5.jpg" alt="User" class="user-image">
                                 <h3 class="name">Ahmed Fraj</h3>
                                 <i class="feedback">Loved th Good Product. Perfectly balanced and Qualitet. Will order again</i>
                             </li>
                         </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
             </div>
@@ -166,6 +172,10 @@
           
     </main>
 
+    <!-- Linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Linking Custom Script -->
     <script src="script.js"></script>
 
 </body>
