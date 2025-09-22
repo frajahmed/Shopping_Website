@@ -302,7 +302,17 @@ header .navbar {
     width: 180px;
     height: 180px;
     object-fit: cover;
+    margin-bottom: 50px;
     border-radius: var(--border-radius-circle);
+}
+
+.testimonials-section .testimonial .name {
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+}
+
+.testimonials-section .testimonial .feedback {
+    line-height: 25px;
 }
 
 /* Responsive media query for max width 1024px*/
